@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lession3_1</string>
+    <string name="TextView">Text View</string>
+    <string name="ButtonView">Button View</string>
+    <string name="showActivity">Show</string>
+    <string name="TextEditView">TextEdit View</string>
+    <string name="ImageView">Image View</string>
+    <string name="progressBarView">Progress Bar View</string>
+    <string name="alertDialogView">AlertDialog View</string>
+    <string name="linearLayout">Linear Layout</string>
+    <string name="inputLayout">Input Layout View</string>
+</resources>

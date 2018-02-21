@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/add"
+        android:title="@string/action_add"
+        android:showAsAction="ifRoom"
+        />
+
+    <!-- Link菜单, 在溢出菜单中展示(就是三个点)
+         android:showAsAction="never" 或者不写
+    <item android:id="@+id/action_link"
+        android:title="@string/action_link"
+        android:icon="@drawable/link"
+        android:showAsAction="ifRoom"
+        />
+    -->
+</menu>

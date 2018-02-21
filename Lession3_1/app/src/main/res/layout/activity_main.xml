@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.windvalley.lession3_1.layout.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.windvalley.lession3_1.layout.TitleLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radViewGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <RadioButton
+                android:id="@+id/radTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TextView"
+                />
+
+            <RadioButton
+                android:id="@+id/radButtonView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ButtonView"
+                />
+
+            <RadioButton
+                android:id="@+id/textEditView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TextEditView"
+                />
+
+            <RadioButton
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ImageView"
+                />
+
+            <RadioButton
+                android:id="@+id/progressBarView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/progressBarView"
+                />
+
+            <RadioButton
+                android:id="@+id/alertDialogView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alertDialogView"
+                />
+
+            <RadioButton
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linearLayout"
+                />
+
+            <RadioButton
+                android:id="@+id/inputLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/inputLayout"
+                />
+
+            <RadioButton
+                android:id="@+id/listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List View"
+                />
+
+            <RadioButton
+                android:id="@+id/recyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recycler View"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/mainActivate_Show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/showActivity"/>
+    </LinearLayout>
+</LinearLayout>
